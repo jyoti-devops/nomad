@@ -1,0 +1,106 @@
+05:52 docker/3bd73215e025[799]: INFO  ContextLoader - Root WebApplicationContext: initialization started
+05:52 docker/3bd73215e025[799]: INFO  XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Jun 17 09:35:52 UTC 2016]; root of context hierarchy
+05:53 docker/3bd73215e025[799]: INFO  XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/business-config.xml]
+05:54 docker/3bd73215e025[799]: INFO  XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/datasource-config.xml]
+05:56 docker/3bd73215e025[799]: INFO  XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/tools-config.xml]
+05:56 docker/3bd73215e025[799]: INFO  PropertyPlaceholderConfigurer - Loading properties file from class path resource [spring/data-access.properties]
+05:56 docker/3bd73215e025[799]: INFO  PropertyPlaceholderConfigurer - Loading properties file from class path resource [spring/data-access.properties]
+06:30 docker/3bd73215e025[799]: INFO  LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'petclinic'
+06:31 docker/3bd73215e025[799]: INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [
+06:31 docker/3bd73215e025[799]: 	name: petclinic
+06:31 docker/3bd73215e025[799]: 	...]
+06:34 docker/3bd73215e025[799]: INFO  Version - HHH000412: Hibernate Core {4.3.11.Final}
+06:34 docker/3bd73215e025[799]: INFO  Environment - HHH000206: hibernate.properties not found
+06:34 docker/3bd73215e025[799]: INFO  Environment - HHH000021: Bytecode provider name : javassist
+06:36 docker/3bd73215e025[799]: INFO  Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+06:38 docker/3bd73215e025[799]: INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+06:38 docker/3bd73215e025[799]: INFO  ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+06:38 docker/3bd73215e025[799]: INFO  Version - HV000001: Hibernate Validator 5.2.4.Final
+06:40 docker/3bd73215e025[799]: INFO  ScriptUtils - Executing SQL script from class path resource [db/hsqldb/initDB.sql]
+06:40 docker/3bd73215e025[799]: INFO  ScriptUtils - Executed SQL script from class path resource [db/hsqldb/initDB.sql] in 50 ms.
+06:40 docker/3bd73215e025[799]: INFO  ScriptUtils - Executing SQL script from class path resource [db/hsqldb/populateDB.sql]
+06:40 docker/3bd73215e025[799]: INFO  ScriptUtils - Executed SQL script from class path resource [db/hsqldb/populateDB.sql] in 16 ms.
+06:41 docker/3bd73215e025[799]: INFO  EhCacheManagerFactoryBean - Initializing EhCache CacheManager
+06:42 docker/3bd73215e025[799]: INFO  AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+06:42 docker/3bd73215e025[799]: INFO  AnnotationMBeanExporter - Bean with name 'callMonitor' has been autodetected for JMX exposure
+06:42 docker/3bd73215e025[799]: INFO  AnnotationMBeanExporter - Located managed bean 'callMonitor': registering with JMX server as MBean [petclinic:type=CallMonitor]
+06:42 docker/3bd73215e025[799]: INFO  ContextLoader - Root WebApplicationContext: initialization completed in 50591 ms
+06:43 docker/3bd73215e025[799]: INFO  DandelionFilter - Initializing the Dandelion context
+06:43 docker/3bd73215e025[799]: INFO  Context - Initializing configuration loader
+06:43 docker/3bd73215e025[799]: WARN  StandardConfigurationLoader - No file "dandelion.properties" was found in "dandelion/dandelion.properties" (classpath). The default configuration will be used.
+06:43 docker/3bd73215e025[799]: INFO  Configuration - ===========================================
+06:43 docker/3bd73215e025[799]: INFO  Configuration - 
+06:43 docker/3bd73215e025[799]: INFO  Configuration - Dandelion "dev" profile activated.
+06:43 docker/3bd73215e025[799]: INFO  Configuration - 
+06:43 docker/3bd73215e025[799]: INFO  Configuration - ===========================================
+06:43 docker/3bd73215e025[799]: INFO  Context - Scanning for components
+06:43 docker/3bd73215e025[799]: INFO  Context - Found component(s): ddl-core, ddl-dt
+06:43 docker/3bd73215e025[799]: INFO  Context - Initializing bundle loaders
+06:43 docker/3bd73215e025[799]: INFO  Context - Found bundle loader: dandelion-datatables
+06:43 docker/3bd73215e025[799]: INFO  Context - Found bundle loader: dandelion
+06:43 docker/3bd73215e025[799]: INFO  Context - Bundle loaders initialized: dandelion-datatables, dandelion
+06:43 docker/3bd73215e025[799]: INFO  Context - Initializing extra loaders
+06:48 docker/3bd73215e025[799]: INFO  Context - Extra loaders initialized: bower
+06:48 docker/3bd73215e025[799]: INFO  Context - Initializing asset locators
+06:48 docker/3bd73215e025[799]: INFO  Context - Found asset locator: classpath
+06:48 docker/3bd73215e025[799]: INFO  Context - Found asset locator: api
+06:48 docker/3bd73215e025[799]: INFO  Context - Found asset locator: webapp
+06:48 docker/3bd73215e025[799]: INFO  Context - Found asset locator: remote
+06:48 docker/3bd73215e025[799]: INFO  Context - Found asset locator: jar
+06:48 docker/3bd73215e025[799]: INFO  Context - Found asset locator: file
+06:48 docker/3bd73215e025[799]: INFO  Context - Initializing asset caching system
+06:48 docker/3bd73215e025[799]: INFO  Context - Found asset caching system: default
+06:48 docker/3bd73215e025[799]: INFO  Context - Asset cache system initialized: default
+06:48 docker/3bd73215e025[799]: INFO  Context - Initializing asset processors
+06:48 docker/3bd73215e025[799]: INFO  Context - Found asset processor: JsMinProcessor
+06:48 docker/3bd73215e025[799]: INFO  Context - Found asset processor: CssMinProcessor
+06:48 docker/3bd73215e025[799]: INFO  Context - Found asset processor: CssUrlRewritingProcessor
+06:48 docker/3bd73215e025[799]: INFO  Context - Asset processors disabled. All assets will be served as-is.
+06:48 docker/3bd73215e025[799]: INFO  Context - Initializing asset versioning
+06:48 docker/3bd73215e025[799]: INFO  Context - Found asset versioning strategy: content
+06:48 docker/3bd73215e025[799]: INFO  Context - Found asset versioning strategy: fixed
+06:48 docker/3bd73215e025[799]: INFO  Context - Selected asset versioning strategy: content
+06:48 docker/3bd73215e025[799]: INFO  Context - Initializing bundle storage
+06:51 docker/3bd73215e025[799]: INFO  Context - Bundle storage initialized with 65 bundles
+06:51 docker/3bd73215e025[799]: INFO  Context - Initializing asset storage
+06:51 docker/3bd73215e025[799]: INFO  Context - Asset storage initialized with: memory
+06:51 docker/3bd73215e025[799]: INFO  Context - Initializing handlers
+06:52 docker/3bd73215e025[799]: INFO  Context - Pre-handler (1/3) ReloadBundlePreHandler (rank: 0)
+06:52 docker/3bd73215e025[799]: INFO  Context - Pre-handler (2/3) ClearStoragePreHandler (rank: 0)
+06:52 docker/3bd73215e025[799]: INFO  Context - Pre-handler (3/3) ClearCachePreHandler (rank: 0)
+06:52 docker/3bd73215e025[799]: INFO  Context - Post-handler (1/6) ETagPostHandler (rank: 10)
+06:52 docker/3bd73215e025[799]: INFO  Context - Post-handler (2/6) AssetInjectionPostHandler (rank: 20)
+06:52 docker/3bd73215e025[799]: INFO  Context - Post-handler (3/6) GzipCompressionPostHandler (rank: 30)
+06:52 docker/3bd73215e025[799]: INFO  Context - Post-handler (4/6) ReportAlertPostHandler (rank: 30)
+06:52 docker/3bd73215e025[799]: INFO  Context - Post-handler (5/6) CacheHeaderPostHandler (rank: 40)
+06:52 docker/3bd73215e025[799]: INFO  Context - Post-handler (6/6) DebuggerPostHandler (rank: 50)
+06:52 docker/3bd73215e025[799]: INFO  DandelionFilter - Dandelion context initialized
+06:54 docker/3bd73215e025[799]: INFO  DispatcherServlet - FrameworkServlet 'petclinic': initialization started
+06:55 docker/3bd73215e025[799]: INFO  XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'petclinic-servlet': startup date [Fri Jun 17 09:36:54 UTC 2016]; parent: Root WebApplicationContext
+06:55 docker/3bd73215e025[799]: INFO  XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/mvc-core-config.xml]
+06:55 docker/3bd73215e025[799]: INFO  XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/mvc-view-config.xml]
+07:31 docker/3bd73215e025[799]: INFO  Jaxb2Marshaller - Creating JAXBContext with classes to be bound [class org.springframework.samples.petclinic.model.Vets]
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/oups],methods=[GET]}" onto public java.lang.String org.springframework.samples.petclinic.web.CrashController.triggerException()
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners],methods=[GET]}" onto public java.lang.String org.springframework.samples.petclinic.web.OwnerController.processFindForm(org.springframework.samples.petclinic.model.Owner,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/{ownerId}/edit],methods=[GET]}" onto public java.lang.String org.springframework.samples.petclinic.web.OwnerController.initUpdateOwnerForm(int,org.springframework.ui.Model)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/{ownerId}/edit],methods=[POST]}" onto public java.lang.String org.springframework.samples.petclinic.web.OwnerController.processUpdateOwnerForm(org.springframework.samples.petclinic.model.Owner,org.springframework.validation.BindingResult,int)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/{ownerId}]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.samples.petclinic.web.OwnerController.showOwner(int)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/new],methods=[GET]}" onto public java.lang.String org.springframework.samples.petclinic.web.OwnerController.initCreationForm(java.util.Map<java.lang.String, java.lang.Object>)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/new],methods=[POST]}" onto public java.lang.String org.springframework.samples.petclinic.web.OwnerController.processCreationForm(org.springframework.samples.petclinic.model.Owner,org.springframework.validation.BindingResult)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/find],methods=[GET]}" onto public java.lang.String org.springframework.samples.petclinic.web.OwnerController.initFindForm(java.util.Map<java.lang.String, java.lang.Object>)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/vets.xml || /vets.html]}" onto public java.lang.String org.springframework.samples.petclinic.web.VetController.showVetList(java.util.Map<java.lang.String, java.lang.Object>)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/vets.json]}" onto public org.springframework.samples.petclinic.model.Vets org.springframework.samples.petclinic.web.VetController.showResourcesVetList()
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/*/pets/{petId}/visits/new],methods=[GET]}" onto public java.lang.String org.springframework.samples.petclinic.web.VisitController.initNewVisitForm(int,java.util.Map<java.lang.String, java.lang.Object>)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/{ownerId}/pets/{petId}/visits/new],methods=[POST]}" onto public java.lang.String org.springframework.samples.petclinic.web.VisitController.processNewVisitForm(org.springframework.samples.petclinic.model.Visit,org.springframework.validation.BindingResult)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/*/pets/{petId}/visits],methods=[GET]}" onto public java.lang.String org.springframework.samples.petclinic.web.VisitController.showVisits(int,java.util.Map<java.lang.String, java.lang.Object>)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/{ownerId}/pets/{petId}/edit],methods=[GET]}" onto public java.lang.String org.springframework.samples.petclinic.web.PetController.initUpdateForm(int,org.springframework.ui.ModelMap)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/{ownerId}/pets/{petId}/edit],methods=[POST]}" onto public java.lang.String org.springframework.samples.petclinic.web.PetController.processUpdateForm(org.springframework.samples.petclinic.model.Pet,org.springframework.validation.BindingResult,org.springframework.samples.petclinic.model.Owner,org.springframework.ui.ModelMap)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/{ownerId}/pets/new],methods=[GET]}" onto public java.lang.String org.springframework.samples.petclinic.web.PetController.initCreationForm(org.springframework.samples.petclinic.model.Owner,org.springframework.ui.ModelMap)
+07:32 docker/3bd73215e025[799]: INFO  RequestMappingHandlerMapping - Mapped "{[/owners/{ownerId}/pets/new],methods=[POST]}" onto public java.lang.String org.springframework.samples.petclinic.web.PetController.processCreationForm(org.springframework.samples.petclinic.model.Owner,org.springframework.samples.petclinic.model.Pet,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+07:34 docker/3bd73215e025[799]: INFO  RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'petclinic-servlet': startup date [Fri Jun 17 09:36:54 UTC 2016]; parent: Root WebApplicationContext
+07:35 docker/3bd73215e025[799]: INFO  RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'petclinic-servlet': startup date [Fri Jun 17 09:36:54 UTC 2016]; parent: Root WebApplicationContext
+07:36 docker/3bd73215e025[799]: INFO  SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+07:36 docker/3bd73215e025[799]: INFO  SimpleUrlHandlerMapping - Mapped URL path [/vendors/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+07:37 docker/3bd73215e025[799]: INFO  SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+07:37 docker/3bd73215e025[799]: INFO  SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07:37 docker/3bd73215e025[799]: INFO  DispatcherServlet - FrameworkServlet 'petclinic': initialization completed in 42973 ms

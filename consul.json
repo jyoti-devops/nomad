@@ -1,0 +1,11 @@
+{
+  "datacenter": "dc1",
+  "server": true,
+  "leave_on_terminate": true,
+  "retry_join": [
+    "mod02.finn.no",
+    "mod04.finn.no",
+    "mod06.finn.no"
+  ],
+  "bootstrap_expect": 3
+}

@@ -1,0 +1,6 @@
+2016/06/17 15:05:08 [DEBUG] sylog-server: launching syslog server on addr: /tmp/plugin859814472
+2016/06/17 15:05:09 [INFO] executor: registering services
+2016/06/17 15:58:14 [DEBUG] consul: error in syncing task "petclinic": Get http://127.0.0.1:8500/v1/agent/services: dial tcp 127.0.0.1:8500: getsockopt: connection refused
+2016/06/17 16:15:34 [DEBUG] consul: error in syncing task "petclinic": Get http://127.0.0.1:8500/v1/agent/services: dial tcp 127.0.0.1:8500: getsockopt: connection refused
+2016/06/17 16:17:59 [DEBUG] consul: error in syncing task "petclinic": Get http://127.0.0.1:8500/v1/agent/services: dial tcp 127.0.0.1:8500: getsockopt: connection refused
+2016/06/17 16:30:39 [DEBUG] consul: error in syncing task "petclinic": Get http://127.0.0.1:8500/v1/agent/services: dial tcp 127.0.0.1:8500: getsockopt: connection refused

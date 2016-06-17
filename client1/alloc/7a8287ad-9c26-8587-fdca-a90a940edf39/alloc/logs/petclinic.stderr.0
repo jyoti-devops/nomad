@@ -1,0 +1,86 @@
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Server version:        Apache Tomcat/7.0.68
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Server built:          Feb 8 2016 20:25:54 UTC
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Server number:         7.0.68.0
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: OS Name:               Linux
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: OS Version:            3.13.0-83-generic
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Architecture:          amd64
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: JVM Version:           1.7.0_95-b00
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: JVM Vendor:            Oracle Corporation
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: CATALINA_BASE:         /usr/local/tomcat7
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: CATALINA_HOME:         /usr/local/tomcat7
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat7/conf/logging.properties
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Command line argument: -Xmx1024m
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Command line argument: -Dcom.sun.management.jmxremote.port=9999
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Command line argument: -Djava.endorsed.dirs=/usr/local/tomcat7/endorsed
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat7
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat7
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.VersionLoggerListener log
+05:10 docker/3bd73215e025[799]: INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat7/temp
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+05:10 docker/3bd73215e025[799]: INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.coyote.AbstractProtocol init
+05:10 docker/3bd73215e025[799]: INFO: Initializing ProtocolHandler ["http-bio-8080"]
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.coyote.AbstractProtocol init
+05:10 docker/3bd73215e025[799]: INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.Catalina load
+05:10 docker/3bd73215e025[799]: INFO: Initialization processed in 534 ms
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.core.StandardService startInternal
+05:10 docker/3bd73215e025[799]: INFO: Starting service Catalina
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.core.StandardEngine startInternal
+05:10 docker/3bd73215e025[799]: INFO: Starting Servlet Engine: Apache Tomcat/7.0.68
+05:10 docker/3bd73215e025[799]: Jun 17, 2016 9:35:10 AM org.apache.catalina.startup.HostConfig deployWAR
+05:10 docker/3bd73215e025[799]: INFO: Deploying web application archive /usr/local/tomcat7/webapps/petclinic.war
+05:51 docker/3bd73215e025[799]: Jun 17, 2016 9:35:51 AM org.apache.catalina.startup.TldConfig execute
+05:51 docker/3bd73215e025[799]: INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07:38 docker/3bd73215e025[799]: Jun 17, 2016 9:37:38 AM org.apache.catalina.startup.HostConfig deployWAR
+07:38 docker/3bd73215e025[799]: INFO: Deployment of web application archive /usr/local/tomcat7/webapps/petclinic.war has finished in 148,291 ms
+07:39 docker/3bd73215e025[799]: Jun 17, 2016 9:37:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+07:39 docker/3bd73215e025[799]: INFO: Deploying web application directory /usr/local/tomcat7/webapps/host-manager
+07:39 docker/3bd73215e025[799]: Jun 17, 2016 9:37:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+07:39 docker/3bd73215e025[799]: INFO: Deployment of web application directory /usr/local/tomcat7/webapps/host-manager has finished in 539 ms
+07:39 docker/3bd73215e025[799]: Jun 17, 2016 9:37:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+07:39 docker/3bd73215e025[799]: INFO: Deploying web application directory /usr/local/tomcat7/webapps/manager
+07:39 docker/3bd73215e025[799]: Jun 17, 2016 9:37:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+07:39 docker/3bd73215e025[799]: INFO: Deployment of web application directory /usr/local/tomcat7/webapps/manager has finished in 44 ms
+07:39 docker/3bd73215e025[799]: Jun 17, 2016 9:37:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+07:39 docker/3bd73215e025[799]: INFO: Deploying web application directory /usr/local/tomcat7/webapps/docs
+07:39 docker/3bd73215e025[799]: Jun 17, 2016 9:37:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+07:39 docker/3bd73215e025[799]: INFO: Deployment of web application directory /usr/local/tomcat7/webapps/docs has finished in 123 ms
+07:39 docker/3bd73215e025[799]: Jun 17, 2016 9:37:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+07:39 docker/3bd73215e025[799]: INFO: Deploying web application directory /usr/local/tomcat7/webapps/ROOT
+07:39 docker/3bd73215e025[799]: Jun 17, 2016 9:37:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+07:39 docker/3bd73215e025[799]: INFO: Deployment of web application directory /usr/local/tomcat7/webapps/ROOT has finished in 35 ms
+07:39 docker/3bd73215e025[799]: Jun 17, 2016 9:37:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+07:39 docker/3bd73215e025[799]: INFO: Deploying web application directory /usr/local/tomcat7/webapps/examples
+07:40 docker/3bd73215e025[799]: Jun 17, 2016 9:37:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+07:40 docker/3bd73215e025[799]: INFO: Deployment of web application directory /usr/local/tomcat7/webapps/examples has finished in 599 ms
+07:40 docker/3bd73215e025[799]: Jun 17, 2016 9:37:40 AM org.apache.coyote.AbstractProtocol start
+07:40 docker/3bd73215e025[799]: INFO: Starting ProtocolHandler ["http-bio-8080"]
+07:40 docker/3bd73215e025[799]: Jun 17, 2016 9:37:40 AM org.apache.coyote.AbstractProtocol start
+07:40 docker/3bd73215e025[799]: INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+07:40 docker/3bd73215e025[799]: Jun 17, 2016 9:37:40 AM org.apache.catalina.startup.Catalina start
+07:40 docker/3bd73215e025[799]: INFO: Server startup in 150162 ms
